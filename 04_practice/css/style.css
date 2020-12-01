@@ -1,0 +1,64 @@
+.heading {
+	width: 1440px;
+	height: 200px;
+	background-color: #E5E000;
+}
+.heading h1 {
+	font-family: Helvetica;
+	font-size: 50px;
+	line-height: 200px;
+	color: white;
+}
+.big-picture {
+	width: 1440px;
+	height: 1080px;
+	background-image: url(../img/face.png);
+	background-size: cover;
+}
+.center {
+	width: 1440px;
+	height: 100px;
+	background-color: #E5E000;
+}
+.center h2 {
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 100px;
+	color: white;
+}
+.main-text {
+	width: 1280px;
+	height: 637px;
+}
+.main-text h1 {
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	font-weight: 700;
+}
+.main-text p {
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 57px;
+	font-weight: 300;
+}
+.footer {
+	width: 1440px;
+	height: 200px;
+	background-color: #E5E000;
+	background-image: url(../img/logo.jpg);
+	background-repeat: no-repeat;
+	background-position: 80px 77px;
+}
+.footer h1 {
+	font-family: Helvetica;
+	font-size: 50px;
+	line-height: 200px;
+	text-align: right;
+	color: white;
+}
