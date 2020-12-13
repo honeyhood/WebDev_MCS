@@ -63,6 +63,7 @@
 	font-weight: 400;
 	text-align: left;
 	margin-left: 33px;
+	margin-top: 20px;
 }
 
 .h1 {
@@ -72,9 +73,7 @@
 	font-weight: 700;
 	margin-top: 33px;
 	margin-left: 33px;
+	margin-bottom: 41px;
 	text-align: left;
 }
 
-.ul1 {
-	margin-top: 3
-}
