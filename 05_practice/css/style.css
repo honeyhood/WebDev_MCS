@@ -8,6 +8,7 @@
 	font-family: helvetica; 
 	font-weight: 700;
 	color: white;
+	padding-left: 20px;
 }
 
 .first {
@@ -52,6 +53,7 @@
 	font-family: helvetica; 
 	font-weight: 700;
 	color: white;
+	padding-left: 20px
 }
 
 .ul1, .ul2, .ul3, .ul4 {
@@ -71,4 +73,8 @@
 	margin-top: 33px;
 	margin-left: 33px;
 	text-align: left;
+}
+
+.ul1 {
+	margin-top: 3
 }
