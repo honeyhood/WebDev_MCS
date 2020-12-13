@@ -1,0 +1,75 @@
+@import url(reset.css);
+
+.heading {
+	height: 60px;
+	width: 1440px;
+	background-color: #FE1A19;
+	line-height: 60px;
+	font-family: helvetica; 
+	font-weight: 700;
+	color: white;
+}
+
+.first {
+	width: 400px;
+	height: 800px;
+	border: 5px solid #E5E000;
+	box-sizing: border-box;
+	border-radius: 30px;
+	left: 70px;
+	top: 52px;
+	display: inline-block;
+	margin-left: 70px;
+	text-align: center;
+		}
+
+.second {
+	width: 400px;
+	height: 800px;
+	border: 5px solid #E5E000;
+	box-sizing: border-box;
+	border-radius: 30px;
+	display: inline-block;
+	margin-left: 520px;
+	margin-right: 520px;
+}
+
+.third {
+	width: 400px;
+	height: 800px;
+	border: 5px solid #E5E000;
+	box-sizing: border-box;
+	border-radius: 30px;
+	top: 52px;
+	left: 170px;
+	display: inline-block;
+}
+
+.footer {
+	height: 60px;
+	width: 1440px;
+	background-color: #FE1A19;
+	line-height: 60px;
+	font-family: helvetica; 
+	font-weight: 700;
+	color: white;
+}
+
+.ul1, .ul2, .ul3, .ul4 {
+	list-style-type: none;
+	font-family: Times New Roman;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: left;
+	margin-left: 33px;
+}
+
+.h1 {
+	font-family: Helvetica;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	margin-top: 33px;
+	margin-left: 33px;
+	text-align: left;
+}
