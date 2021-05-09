@@ -1,0 +1,68 @@
+.header {
+	width: 1440px;
+	height: 200px;
+	background-color: #E5E000;
+}
+
+.heading h1 {
+	font-family: Helvetica;
+	font-size: 50px;
+	color: white;
+	line-height: 200px;
+}
+
+.big-image {
+	width: 1440px;
+	height: 1080px;
+	background-image: url(../img/face.png);
+}
+
+.center {
+	width: 1440px;
+	height: 100px;
+	background-color: #E5E000;
+}
+
+.center-container h1 {
+	font-family: Helvetica;
+	font-size: 25px;
+	color: white;
+	line-height: 100px;
+}
+
+.big-text {
+	width: 1440px;
+	height: 847px;
+}
+
+.big-text-container h1 {
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 50px;
+}
+
+.big-text-container p {
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 50px;
+}
+
+.footer {
+	width: 1440px;
+	height: 200px;
+	background-color: #E5E000;
+	background-image: url(../img/logo.jpg);
+	background-repeat: no-repeat;
+	background-position: 77px, 80px;
+}
+
+.footer-container h1 {
+	font-family: Helvetica;
+	font-size: 50px;
+	color: white;
+	line-height: 200px;
+	text-align: right;
+}
+
