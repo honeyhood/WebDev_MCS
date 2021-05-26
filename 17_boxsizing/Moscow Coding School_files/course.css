@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Mono);
+
+@font-face {
+    font-family: "NeueMachina";
+    font-weight: normal;
+    src: url("https://moscoding.github.io/course-style/fonts/NeueMachina-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "NeueMachina";
+    font-weight: bold;
+    src: url("https://moscoding.github.io/course-style/fonts/NeueMachina-Ultrabold.otf") format("opentype");
+}
+
+p {
+    font-family: 'NeueMachina', sans-serif;
+    line-height: 1.8;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.wrapper {
+    font-family: 'NeueMachina', sans-serif;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    line-height: 1.8;
+    color: black;
+    font-size:1.5rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+*::selection {
+    background: #ffdb3a;
+}
+
+code, .key {
+    font-family: 'IBM Plex Mono', monospace;
+    padding: 1px 7px;
+    margin: 0 2px 0;
+    border-radius: 5px;
+} 
+
+code {
+    background: #E5E7E9;
+    color: #000099;
+}
+
+.key {
+    border: 1px solid black;
+}
+
+.snippet {
+    font-family: 'IBM Plex Mono', monospace;
+    background: lightgray;
+    color: black;
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+
+.snippet[contenteditable] {
+    border: solid 2px #000099;
+}
+
+details .snippet:not(.extra) {
+    font-family: 'IBM Plex Mono', monospace;
+    background: #b4c5ed;
+    color: #303030;
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+
+.callout {
+    border-left: 5px solid #0000ff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.recap {
+    border: 5px #0000FF solid;
+    padding: 0 20px 20px 20px;
+    color: #0000FF;
+    margin: 50px 0 100px;
+}
+
+.recap h1 {
+    margin-left: 20px;
+    font-size: 50px;
+    line-height: 1;
+}
+
+h1:not(:first-child) {
+    margin-top: 50px;
+}
+
+a {
+    color: inherit;
+}
+
+li:not(first-child) {
+    margin-top:1em;
+}

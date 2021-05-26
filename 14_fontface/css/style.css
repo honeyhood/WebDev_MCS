@@ -1,0 +1,18 @@
+@font-face {
+src: url(../font/RobotoSlab-VariableFont_wght.ttf);
+font-family: "roboto-slab";
+font-weight: normal;
+}
+
+.heading h1 {
+	font-size: 50px;
+	font-weight: normal;
+	font-style: italic;
+	font-family: "roboto-slab" ;
+}
+.paragraph p {
+	font-family: "roboto-slab"
+}
+.paragraph_two p {
+font-family: "roboto-slab"
+}

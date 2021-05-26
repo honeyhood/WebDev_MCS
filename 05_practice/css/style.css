@@ -1,10 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-* {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .heading, .footer {
@@ -18,7 +15,8 @@
 }
 
 .main {
-	font-size: 0
+	text-align: center;
+	font-size: 0;
 }
 
 .first, .second, .third {
@@ -27,8 +25,14 @@
 	border-radius: 30px;
 	display: inline-block;
 	vertical-align: top;
-	margin: 60px 40px;
+	text-align: left;
+	margin-top: 60px;
+	margin-bottom: 60px;
 	padding: 40px;
+}
+
+.second {
+	margin: 60px 50px;
 }
 
 .ul1, .ul2, .ul3, .ul4 {
