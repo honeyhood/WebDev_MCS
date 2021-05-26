@@ -1,24 +1,32 @@
 @import url(reset.css);
 
+html {
+	font-size: 10px;
+}
+
 body {
 	font-family: Arial;
 	box-sizing: border-box;
 }
 
 .header {
+	width: 100%;
 	display: flex;
-	font-size: 50px;
+	background-color: white;
+	font-size: 5rem;
 	justify-content: space-between;
-	line-height: 140px;
+	line-height: 14rem;
 	color: #E50043;
+	position: fixed;
+	top: 0;
 }
 
 .label {
-	margin-left: 50px;
+	margin-left: 5rem;
 }
 
 .menu {
-	margin-right: 50px;
+	margin-right: 5rem;
 }
 
 .menu li {
@@ -26,77 +34,82 @@ body {
 }
 
 .li2 {
-	margin-left: 25px;
-	margin-right: 25px;
+	margin-left: 2.5rem;
+	margin-right: 2.5rem;
 }
 
 a {
+	color: #E50043;
 	text-decoration: none;
 }
 
 .hero {
+	height: 95rem;
+	margin-top: 14rem;
 	display: flex;
-	justify-content: center;
 	background-image: url(../img/evian.png);
 	background-size: cover;
-	font-size: 100px;
-	font-weight: 400px;
-	line-height: 1440px;
-	color: #e50043;
+}
+
+.hero h1 {
+	margin: auto;
+	font-weight: normal;
+	font-size: 6rem;
+	line-height: 11.5rem;
+	color: #E50043;
 }
 
 .description1 {
 	display: flex;
-	margin: 150px auto;
-	padding: 24px;
-	width: 1040px;
-	font-size: 25px;
-	line-height: 29px;
+	margin: 15rem auto;
+	padding: 2.4rem;
+	width: 104rem;
+	font-size: 2.5rem;
+	line-height: 2.9rem;
 	letter-spacing: 0.05em;
-	border: 3px solid #F8BFC7;
-	border-radius: 20px;
+	border: .3rem solid #F8BFC7;
+	border-radius: 2rem;
 }
 
 .bottles {
 	display: flex;
 	justify-content: center;
-	font-size: 25px;
-	line-height: 29px;
+	font-size: 2.5rem;
+	line-height: 2.9rem;
 	text-align: center;
 
 }
 
 .bottle2 {
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-left: 10rem;
+	margin-right: 10rem;
 }
 
 .description2 {
-	width: 1040px;
+	width: 104rem;
 	display: flex;
-	margin: 150px auto;
-	padding: 30px;
-	border: 3px solid #F8BFC7;
-	border-radius: 20px;
-	font-family: Arial;
-	font-size: 25px;
-	line-height: 29px;
+	margin: 15rem auto;
+	padding: 3rem;
+	border: .3rem solid #F8BFC7;
+	border-radius: 2rem;
+	font-size: 2.5rem;
+	line-height: 2.9rem;
 	letter-spacing: 0.05em;
 	text-align: left;
 }
 
 .description2 img {
-	margin: 0 50px;
+	margin: 0 5rem;
 }
 
 .copyright {
 	background-color: #F8BFC7;
-	font-size: 50px;
-	line-height: 140px;
+	font-size: 5rem;
+	line-height: 14rem;
 	text-align: left;
 	color: white;
 }
 
 .copyright p {
-	margin-left: 50px;
+	margin-left: 5rem;
 }
