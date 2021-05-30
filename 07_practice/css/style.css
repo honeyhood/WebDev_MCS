@@ -1,0 +1,39 @@
+@import url(reset.css);
+
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+    to {
+        transform: rotate(360deg);  
+    }
+}
+.page {
+	width: 100vw;
+	height: 100vh;
+	background-image: url(https://raw.githubusercontent.com/matthewbryancurtis/aframe-star-system-component/HEAD/screenshot.png);
+	display: flex;
+	position: relative;
+}
+.sun {
+	width: 300px;
+	height: 300px;
+	background-image: url(https://clipartart.com/images/1930s-sun-clipart-6.png);
+	background-size: cover;
+	background-position: center;
+	margin: auto;
+}
+.earth {
+	width: 400px;
+	height: 400px;
+	background-image: url(https://cdn.pixabay.com/photo/2019/07/24/18/58/earth-4360974_960_720.png);
+	background-size: 50px;
+	background-repeat: no-repeat;
+	background-position: right top;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -200px;
+    animation: rotate 5s linear infinite;
+}
