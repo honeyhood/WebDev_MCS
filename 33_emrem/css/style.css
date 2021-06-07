@@ -1,0 +1,14 @@
+@import url(reset.css);
+
+html {
+	font-size: 20px;
+}
+.outer {
+	font-size: 20px;
+}
+.outer h1 {
+	font-size: 2em;
+}
+.outer2 p {
+	font-size: 2rem;
+}

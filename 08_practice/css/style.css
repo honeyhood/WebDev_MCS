@@ -1,0 +1,77 @@
+@import url(reset.css);
+
+html {
+	font-size: 10px;
+}
+
+body {
+	font-family: Times New Roman;
+}
+
+.header, .footer {
+	display: flex;
+	background-color: #FFE138;
+	min-height: 16rem;
+}
+
+.header h1, .footer h1 {
+	margin: auto;
+	font-size: 5rem;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+}
+
+.columns {
+	width: 90vw;
+	margin: 7rem auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+
+}
+
+.column {
+	width: calc((100% - 100px)/3);
+	border: .1rem solid black;
+	height: 100%;
+}
+
+.image1 {
+	background-image: url(../img/shelf1.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+
+.image2 {
+	background-image: url(../img/shelf2.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+
+.image3 {
+	background-image: url(../img/shelf3.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+
+.heading {
+	margin: 3rem 3.3rem;
+	font-size: 2em;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 2.5rem;
+	text-align: left;
+}
+
+.text {
+	margin: 3rem 3.3rem;
+	font-size: 2rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 2.5rem;
+	text-align: left;
+}
