@@ -42,21 +42,21 @@ body {
 	background-image: url(../img/shelf1.jpg);
 	background-size: cover;
 	background-position: center;
-	padding-bottom: 100%;
+	padding-bottom: 150%;
 }
 
 .image2 {
 	background-image: url(../img/shelf2.jpg);
 	background-size: cover;
 	background-position: center;
-	padding-bottom: 100%;
+	padding-bottom: 150%;
 }
 
 .image3 {
 	background-image: url(../img/shelf3.jpg);
 	background-size: cover;
 	background-position: center;
-	padding-bottom: 100%;
+	padding-bottom: 150%;
 }
 
 .heading {
