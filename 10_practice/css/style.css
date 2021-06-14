@@ -1,0 +1,128 @@
+@import url(reset.css);
+
+html {
+	font-size: 10px;
+}
+
+body {
+	font-family: Helvetica;
+	box-sizing: border-box;
+}
+
+.header, .copyright {
+	height: 9rem;
+	display: flex;
+	justify-content: space-between;
+	background-color: orange;
+	font-size: 2rem;
+	line-height: 9rem;
+	text-align: left;
+}
+
+.menu1, .footer-link1 {
+	margin-left: 5rem;
+}
+
+.menu1 li {
+	display: inline-block;
+}
+
+.menu2, .footer-link2 {
+	margin-right: 5rem;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.li2 {
+	margin: 0 3rem;
+}
+
+.main {
+	display: flex;
+	width: 100%;
+	min-height: 63rem;
+	background-image: url(../img/background.png);
+	background-repeat: no-repeat;
+}
+
+.form {
+	margin: 4rem 7rem;
+	background-color: orange;
+	width: 30vw;
+	height: 31vw;
+	border: .3rem solid #FFFFFF;
+	border-radius: 5%;
+	padding: 2rem;
+}
+
+fieldset {
+	border: none;
+}
+
+input, select, textarea {
+	display: block;
+	width: 100%;
+	font-size: 2rem;
+	color: gray;
+	border: .1rem solid black;
+}
+
+label, span {
+	width: 100%;
+	font-size: 1.5rem;
+	line-height: 2.7rem;
+	text-align: left;
+	color: white;
+}
+
+label {
+	display: block;
+}
+
+input {
+	height: 2.5rem;
+}
+
+input[type="checkbox"] {
+	display: inline-block;
+	width: 2vw;
+	vertical-align: middle;
+}
+
+input[type="submit"] {
+	margin: auto;
+	margin-top: 2rem;
+	width: 50%;
+	height: 3vw;
+	border: .1rem solid white;
+	border-radius: 3rem;
+	background-color: orange;
+	color: white;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: white;
+	color: orange;
+}	
+
+input:focus, textarea:focus, select:focus {
+	outline: none;
+}
+
+.greetings {
+	display: flex;
+	min-height: 20rem;
+	background-color: #336fd1;
+}
+
+.greetings h1 {
+	margin: auto;
+	font-size: 5rem;
+	line-height: 5.7rem;
+	text-align: center;
+	color: white;
+}
